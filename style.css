@@ -1,0 +1,105 @@
+ /* universial style  */
+ *{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ 
+ /* Heder section in navber  */
+
+nav{
+    background-color: #D5D2D2;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 0px;
+}
+.logo{
+    width: 200px;
+}
+.logo-container{
+    color: aqua;
+    display: flex;
+    align-items: center;
+}
+.menus{
+    display: flex;
+}
+.menus li{
+   list-style: none;
+   margin-right: 20px;
+   /* display: flex; */
+}
+.menus a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+/* Header Part Banner Section  */
+/* .div-bg{
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 100%;
+} */
+.banner{
+    /* width: 500px; */
+    /* padding: 200px 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    text-align: center;
+    background-image: url('./asset/image/background.jpg'),linear-gradient(rgba(0, 0, 0, 0.473),rgba(0, 0, 0, 0.356));
+    
+    background-blend-mode: overlay;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner-center{
+    /* line-height: 80px; */
+}
+
+
+span{
+    color: red;
+    font-size: 86px;
+}
+.banner-title{
+    font-size: 86px;
+    color: white;
+    padding-bottom: 30px;
+}
+.banner-description{
+    /* text-align: center; */
+    font-size: 22px;
+    color: white;
+    width: 800px;
+    margin: auto;
+    padding-bottom: 30px;
+    
+}
+.btn-primary{
+    font-size: 18px;
+    padding: 15px 30px;
+    font-family: Arial;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-right: 15px;
+}
+.btn-secondary{
+    color:black;
+    background-color: white;
+}
+
+/* Service Section Style */
+
+.service-container{
+    height: 100vh;
+    background-image: url('./asset/image/footer-bg.png'),linear-gradient(rgba(0, 0, 0, 0.952),rgba(0, 0, 0, 0.918));
+    background-blend-mode: overlay;
+
+}
