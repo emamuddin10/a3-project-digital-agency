@@ -61,9 +61,7 @@ nav{
     background-size: cover;
 
 }
-.banner-center{
-    /* line-height: 80px; */
-}
+
 
 
 span{
@@ -111,7 +109,8 @@ span{
 
 .service-container{
     height: 100vh;
-    background-image: url('./asset/image/footer-bg.png'),linear-gradient(rgba(0, 0, 0, 0.952),rgba(0, 0, 0, 0.918));
+    background-image: url('./asset/image/footer-bg.png'),
+    linear-gradient(rgba(0, 0, 0, 0.952),rgba(0, 0, 0, 0.918));
     background-blend-mode: overlay;
     padding: 100px;
     display: flex;
@@ -287,6 +286,50 @@ span{
    font-size: 18px;
    color: rgb(51, 50, 50);
    padding: 0px 15px 20px 20px;
+}
+
+
+
+/* footer section  */
+
+footer{
+    /* background-color: #000000b9; */
+    background-image: url('./asset/image/footer-bg.png'), linear-gradient(rgb(29, 27, 27), rgba(0, 0, 0, 0.938));
+    background-blend-mode: overlay;
+    /* height: 70vh; */
+    /* padding: 200px; */
+    padding: 200px 200px 100px 200px;
+}
+.foot-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-p{
+    width: 300px;
+    color: white;
+    padding: 15px 0px;
+}
+.foot-title{
+    color: white;
+    padding-bottom: 30px;
+}
+footer li{
+    list-style: none;
+    color: white;
+    padding-bottom: 15px;
+}
+footer a{
+    margin-right: 15px;
+}
+hr{
+    /* height: 1px; */
+    /* padding-top: 50px; */
+    margin-top: 50px;
+}
+.copyright-text{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
 }
 
 
