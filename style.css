@@ -10,6 +10,10 @@
  
  
  /* Heder section in navber  */
+ .digital{
+    font-size: 80px;
+    color: red;
+ }
 
 nav{
     background-color: #D5D2D2;
