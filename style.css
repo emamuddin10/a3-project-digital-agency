@@ -107,13 +107,16 @@ span{
     border-radius: 30px;
 }
 
-/* Service Section Style */
+                       /* Service Section Style */
 
 .service-container{
     height: 100vh;
     background-image: url('./asset/image/footer-bg.png'),linear-gradient(rgba(0, 0, 0, 0.952),rgba(0, 0, 0, 0.918));
     background-blend-mode: overlay;
     padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
                                   /* first div  */
@@ -170,9 +173,30 @@ span{
     padding-top: 15px;
     font-size: 22px;
     color: aliceblue;
+    width: 600px;
 }
 .services ol {
     font-size: 18px;
     margin-left: 15px;
     padding-top: 15px;
+}
+.box{
+    width: 300px;
+    /* height: 300px; */
+    background-color: #fff;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding:100px 0px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+.box-img{
+   width: 100px;
+}
+.boxes{
+    display: flex;
+    gap: 15px;
 }
